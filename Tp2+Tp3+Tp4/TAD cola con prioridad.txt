@@ -1,0 +1,30 @@
+Nombre : PQueue
+Descripcion:Cola que organiza elementos segun su prioridad
+conjunto de operaciones:
+
+1)
+Nombre: Insert
+Comentario:Operacion que permite agregar un nuevo elemento
+Dominio:Prioridad del elemto a colocar, un array de colas
+Codominio:El array de colas con el elemento en su cola correspondiente
+Pre condicion: -
+Post condicion:Haber agregado el elemento en el lugar correspondiente
+Clasificacion:Modificadora
+
+2)
+Nombre: Delete
+Comentario:Elimina el elemento de maxima prioridad dentro del array de colas
+Dominio:Array de colas
+Codominio:Array de colas
+Pre condicion:Que haya un array de colas
+Post condicion:Haber eliminado el elemento de maxima prioridad
+Clasificacion:destructora
+
+3)
+Nombre:GetFirst
+Comentario:Devuelve el elemento con mayor prioridad
+Dominio:Array de nodos
+Codominio:Elemento con mayor prioridad y el array de nodos sin ese elemento
+Pre condicion:Que el array ni los nodos no sean nulos
+Post condicion:Devolver solo el elemento con mayor prioridad y haberlo sacado del arreglo de nodos
+Clasificacion:Modificadora
